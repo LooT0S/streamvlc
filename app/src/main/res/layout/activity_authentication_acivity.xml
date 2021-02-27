@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".AuthenticationAcivity">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="User name"
+        android:textColorHighlight="#9BD4DC"
+        android:textColorHint="#9BD4DC" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="50dp"
+        android:hint="Password"
+        android:textColor="#68CDCF"
+        android:textColorHint="#9BD4DC" />
+
+    <EditText
+        android:id="@+id/repassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="50dp"
+        android:hint="Retype password"
+        android:textColor="#9BD4DC"
+        android:textColorHint="#9BD4DC" />
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/repassword"
+        android:layout_marginTop="93dp"
+        android:background="#9BD4DC"
+        android:text="Sign up"
+        android:textColor="#9BD4DC"
+        android:textColorHint="#9BD4DC"
+        app:backgroundTint="@color/purple_500" />
+
+    <Button
+        android:id="@+id/btnsignin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnsignup"
+        android:layout_marginTop="50dp"
+        android:text="Sign in"
+        android:textColor="#9BD4DC"
+        android:textColorHint="#9BD4DC"
+        app:backgroundTint="@color/purple_500" />
+
+</RelativeLayout>
